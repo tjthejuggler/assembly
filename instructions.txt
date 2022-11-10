@@ -1,0 +1,6 @@
+Terminal Commands:
+1. sudo apt install nasm
+2. fill hello.asm with some assembly code
+3. nasm -f elf64 hello.asm  - compiles the file in elf64 architecture
+4. ld first.o - creates executable file as a.out
+5. ./a.out - run the file
